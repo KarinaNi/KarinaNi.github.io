@@ -4,6 +4,7 @@ title = "My Personal Website"
 theme = "PaperMod"
 description = "A simple website built with Hugo and the PaperMod theme."
 author = "Karina"
+theme: ["PaperMod"]
 
 [params]
   assets:
