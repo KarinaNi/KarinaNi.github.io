@@ -1,0 +1,12 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "My Personal Website"
+theme = "hugo-papermod"
+description = "A simple website built with Hugo and the PaperMod theme."
+author = "Karina"
+
+[params]
+  homeInfoParams = ["Title", "Content"]
+  socialIcons = [
+    {name = "github", url = "https://github.com/KarinaNi"},
+  ]
