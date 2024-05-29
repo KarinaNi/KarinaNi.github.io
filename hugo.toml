@@ -15,17 +15,37 @@ theme = "hugo-PaperMod"
   imageWidth = 200
   imageHeight = 250
 
-[[params.profileMode.socialIcons]]
+[[params.socialIcons]]
   name = "github"
   url = "https://github.com/KarinaNi"
 
-[[params.profileMode.socialIcons]]
+[[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/Karina1"
 
+[[params.socialIcons]]
+  name = "Discord"
+  url = "https://www.linkedin.com/in/Karina1"
+
+[[params.socialIcons]]
+  name = "KoFi"
+  url = "https://www.linkedin.com/in/Karina1"
+
+[[params.socialIcons]]
+  name = "Facebook"
+  url = "https://www.linkedin.com/in/Karina1"
+
+[[params.socialIcons]]
+  name = "Leetcode"
+  url = "https://leetcode.com/u/Batman2701/"
+
+[[params.socialIcons]]
+  name = "Instagram"
+  url = "https://leetcode.com/u/Batman2701/"
+
 [[params.profileMode.buttons]]
   name = "Projects"
-  url = "posts"
+  url = "Projects"
 
 [[params.profileMode.buttons]]
   name = "About me"
