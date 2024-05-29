@@ -1,6 +1,6 @@
 baseURL = "https://karinani.github.io/"
 languageCode = "en-us"
-title = "My Hugo Site"
+title = "My Site"
 theme = "hugo-PaperMod"
 
 [params]
@@ -8,25 +8,35 @@ theme = "hugo-PaperMod"
 
 [params.profileMode]
   enabled = true
-  title = "Name"
-  subtitle = "You"
-  imageUrl = "path/to/your/profile/image.jpg"
+  title = "Karina Nihalani"
+  subtitle = "A person with various interests in Computer Science, Machine Learning and Back end Development"
+  imageUrl = "/pfpimage.jpg"
   imageTitle = "Your image title"
-  imageWidth = 120
-  imageHeight = 120
+  imageWidth = 200
+  imageHeight = 250
+
+[[params.profileMode.socialIcons]]
+  name = "github"
+  url = "https://github.com/KarinaNi"
+
+[[params.profileMode.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/Karina1"
 
 [[params.profileMode.buttons]]
-  name = "Posts"
+  name = "Projects"
   url = "posts"
 
 [[params.profileMode.buttons]]
-  name = "Tags"
+  name = "About me"
   url = "tags"
 
-[[params.profileMode.socialIcons]]
-  name = "<platform1>"
-  url = "<link1>"
+[[params.profileMode.buttons]]
+  name = "Experience"
+  url = "tags"
 
-[[params.profileMode.socialIcons]]
-  name = "<platform2>"
-  url = "<link2>"
+[[params.profileMode.buttons]]
+  name = "Other"
+  url = "tags"
+
+
