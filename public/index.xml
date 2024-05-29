@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My Hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://karinani.github.io/</link>
     <description>Recent content on My Hugo Site</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://karinani.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
