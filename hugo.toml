@@ -3,26 +3,30 @@ languageCode = "en-us"
 title = "My Hugo Site"
 theme = "hugo-PaperMod"
 
+[params]
+  env = "production"
+
 [params.profileMode]
-enabled = true
-title = "Your Name"
-subtitle = "Your subtitle or bio"
-imageUrl = "path/to/your/profile/image.jpg"
-imageTitle = "Your image title"
-imageWidth = 120
-imageHeight = 120
+  enabled = true
+  title = "Your Name"
+  subtitle = "Your subtitle or bio"
+  imageUrl = "path/to/your/profile/image.jpg"
+  imageTitle = "Your image title"
+  imageWidth = 120
+  imageHeight = 120
 
 [[params.profileMode.buttons]]
-name = "Posts"
-url = "posts"
+  name = "Posts"
+  url = "posts"
 
 [[params.profileMode.buttons]]
-name = "Tags"
-url = "tags"
+  name = "Tags"
+  url = "tags"
 
 [[params.profileMode.socialIcons]]
   name = "<platform1>"
   url = "<link1>"
+
 [[params.profileMode.socialIcons]]
-   name = "<platform2>"
-   url = "<link2>"
+  name = "<platform2>"
+  url = "<link2>"
