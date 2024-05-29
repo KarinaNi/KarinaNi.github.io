@@ -1,3 +1,28 @@
-baseURL = 'https://KarinaNi.github.io'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://github.com/KarinaNi/KarinaNi.github.io"
+languageCode = "en-us"
+title = "My Hugo Site"
+theme = "hugo-PaperMod"
+
+[params.profileMode]
+enabled = true
+title = "Your Name"
+subtitle = "Your subtitle or bio"
+imageUrl = "path/to/your/profile/image.jpg"
+imageTitle = "Your image title"
+imageWidth = 120
+imageHeight = 120
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
+
+  [[params.socialIcons]]
+    name = "<platform1>"
+    url = "<link1>"
+  [[params.socialIcons]]
+    name = "<platform2>"
+    url = "<link2>"
