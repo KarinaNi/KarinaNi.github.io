@@ -20,9 +20,9 @@ url = "posts"
 name = "Tags"
 url = "tags"
 
-[[params.socialIcons]]
+[[params.profileMode.socialIcons]]
   name = "<platform1>"
   url = "<link1>"
-[[params.socialIcons]]
+[[params.profileMode.socialIcons]]
    name = "<platform2>"
    url = "<link2>"
