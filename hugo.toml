@@ -8,8 +8,8 @@ theme = "hugo-PaperMod"
 
 [params.profileMode]
   enabled = true
-  title = "Your Name"
-  subtitle = "Your subtitle or bio"
+  title = "Name"
+  subtitle = "You"
   imageUrl = "path/to/your/profile/image.jpg"
   imageTitle = "Your image title"
   imageWidth = 120
