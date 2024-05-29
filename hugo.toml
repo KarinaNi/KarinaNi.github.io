@@ -1,4 +1,4 @@
-baseURL = "https://github.com/KarinaNi/KarinaNi.github.io"
+baseURL = "https://KarinaNi.github.io/"
 languageCode = "en-us"
 title = "My Hugo Site"
 theme = "hugo-PaperMod"
@@ -20,9 +20,9 @@ url = "posts"
 name = "Tags"
 url = "tags"
 
-  [[params.socialIcons]]
-    name = "<platform1>"
-    url = "<link1>"
-  [[params.socialIcons]]
-    name = "<platform2>"
-    url = "<link2>"
+[[params.socialIcons]]
+  name = "<platform1>"
+  url = "<link1>"
+[[params.socialIcons]]
+   name = "<platform2>"
+   url = "<link2>"
