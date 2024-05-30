@@ -43,6 +43,10 @@ theme = "hugo-PaperMod"
   name = "Instagram"
   url = "https://leetcode.com/u/Batman2701/"
 
+[[params.socialIcons]]
+  name = "Email"
+  url = "mailto:akarina800@gmail.com"
+
 [[params.profileMode.buttons]]
   name = "Projects"
   url = "Projects"
