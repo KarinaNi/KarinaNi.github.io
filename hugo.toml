@@ -1,16 +1,18 @@
-baseURL = "https://karinani.github.io/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "My Site"
 theme = "hugo-PaperMod"
 
 [params]
   env = "production"
+  defaultTheme = "auto"
+  ShowBreadCrumbs = true
 
 [params.profileMode]
   enabled = true
   title = "Karina Nihalani"
   subtitle = "A person with various interests in Computer Science, Machine Learning and Back end Development"
-  imageUrl = "/emoji.svg"
+  imageUrl = "emoji.svg"
   imageTitle = "Your image title"
   imageWidth = 200
   imageHeight = 250
@@ -49,18 +51,45 @@ theme = "hugo-PaperMod"
 
 [[params.profileMode.buttons]]
   name = "Projects"
-  url = "Projects"
+  url = "/projects/"
 
 [[params.profileMode.buttons]]
   name = "About me"
-  url = "tags"
+  url = "/about/"
 
 [[params.profileMode.buttons]]
   name = "Experience"
-  url = "tags"
+  url = "/experience/"
 
 [[params.profileMode.buttons]]
   name = "Other"
-  url = "tags"
+  url = "/other/"
+
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "Blogs"
+    name = "Blogs"
+    url = "/Blogs/"
+    weight = 10
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience/"
+    weight = 30
+  [[menu.main]]
+    identifier = "other"
+    name = "Other"
+    url = "/other/"
+    weight = 40
 
 
