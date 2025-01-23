@@ -1,4 +1,4 @@
-baseURL = "https://KarinaNi.github.io/"
+baseURL = "https://karinani.github.io"
 languageCode = "en-us"
 title = "Home"
 theme = "hugo-PaperMod"
@@ -31,7 +31,7 @@ theme = "hugo-PaperMod"
 
 [[params.socialIcons]]
   name = "KoFi"
-  url = "https://www.linkedin.com/in/Karina1"
+  url = "https://buymeacoffee.com/karina_"
 
 [[params.socialIcons]]
   name = "Facebook"
