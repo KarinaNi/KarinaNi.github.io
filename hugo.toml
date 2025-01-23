@@ -1,6 +1,6 @@
 baseURL = "https://KarinaNi.github.io/"
 languageCode = "en-us"
-title = "My Site"
+title = "Home"
 theme = "hugo-PaperMod"
 
 [params]
@@ -51,19 +51,19 @@ theme = "hugo-PaperMod"
 
 [[params.profileMode.buttons]]
   name = "Projects"
-  url = "/projects/"
+  url = "projects/"
 
 [[params.profileMode.buttons]]
   name = "About me"
-  url = "/about/"
+  url = "about/"
 
 [[params.profileMode.buttons]]
   name = "Experience"
-  url = "/experience/"
+  url = "experience/"
 
 [[params.profileMode.buttons]]
   name = "Other"
-  url = "/other/"
+  url = "other/"
 
 [menu]
   [[menu.main]]
